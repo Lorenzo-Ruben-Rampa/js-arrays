@@ -34,3 +34,14 @@ if (teachers.includes('Fabio')) {
 // 5. Unisci tutti gli insegnanti nell'array teachers in una stringa separata da virgole e salvala nella variabile teachersString
 const teachersString = teachers.join();
 console.log(teachersString);
+
+// SPIEGAZIONE .FILTER
+// const longNames = [];
+// for (let i = 0; i < teachers.length; i++) {
+// let numberTeacher = teachers[i];
+// let name = numberTeacher.length;
+//  if (name >= 5) {
+//  longNames.push(numberTeacher);
+  //  }
+  // }
+  // console.log(longNames);
